@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name RedCometESP32)(type KiCad)(uri ${KIPRJMOD}/RedCometESP32.pretty)(options "")(descr ""))
+)

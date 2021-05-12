@@ -1,0 +1,2131 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Red Comet ESP32"
+Date "2021-02-08"
+Rev "1.00"
+Comp "Rocket Scream Electronics"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RocketScreamKiCadLib:S2B-PH-SM4-TB J1
+U 1 1 56090A7E
+P 8400 1150
+F 0 "J1" H 8300 1350 60  0000 C CNN
+F 1 "S2B-PH-SM4-TB" H 8400 800 60  0000 C CNN
+F 2 "RocketScreamKiCadLib:S2B-PH-SM4-TB" H 8400 700 60  0001 C CNN
+F 3 "" H 8350 1150 60  0000 C CNN
+	1    8400 1150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:TACT-SWITCH_2Pins SW1
+U 1 1 56091122
+P 2950 2250
+F 0 "SW1" H 2950 2400 60  0000 C CNN
+F 1 "SPNO" H 2950 2150 60  0000 C CNN
+F 2 "RocketScreamKiCadLib:TS-107A" H 2950 2050 60  0001 C CNN
+F 3 "" H 2950 2250 60  0000 C CNN
+	1    2950 2250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:GND #PWR018
+U 1 1 560BB95C
+P 2400 4750
+F 0 "#PWR018" H 2400 4500 50  0001 C CNN
+F 1 "GND" H 2400 4600 50  0001 C CNN
+F 2 "" H 2400 4750 60  0000 C CNN
+F 3 "" H 2400 4750 60  0000 C CNN
+	1    2400 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:RESISTOR R9
+U 1 1 560C3EDE
+P 6300 6900
+F 0 "R9" H 6300 7000 60  0000 C CNN
+F 1 "5K1" H 6300 6800 60  0000 C CNN
+F 2 "RocketScreamKiCadLib:R_0603" H 6300 6700 60  0001 C CNN
+F 3 "" H 6300 6900 60  0000 C CNN
+	1    6300 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:VIN #PWR05
+U 1 1 560C771D
+P 3800 1100
+F 0 "#PWR05" H 3800 950 50  0001 C CNN
+F 1 "VIN" H 3800 1240 50  0000 C CNN
+F 2 "" H 3800 1100 60  0000 C CNN
+F 3 "" H 3800 1100 60  0000 C CNN
+	1    3800 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:CAPACITOR-CERAMIC C1
+U 1 1 560CB746
+P 4700 1350
+F 0 "C1" H 4850 1350 50  0000 L CNN
+F 1 "10uF 16V X5R" H 4800 1450 50  0000 L CNN
+F 2 "RocketScreamKiCadLib:C_0603" H 4700 1150 30  0001 C CNN
+F 3 "" H 4700 1350 60  0000 C CNN
+	1    4700 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L RocketScreamKiCadLib:GND #PWR011
+U 1 1 560CBD0A
+P 4700 1600
+F 0 "#PWR011" H 4700 1350 50  0001 C CNN
+F 1 "GND" H 4700 1450 50  0001 C CNN
+F 2 "" H 4700 1600 60  0000 C CNN
+F 3 "" H 4700 1600 60  0000 C CNN
+	1    4700 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:RESISTOR R3
+U 1 1 560CD578
+P 3800 2650
+F 0 "R3" V 3750 2500 60  0000 C CNN
+F 1 "10K" V 3850 2500 60  0000 C CNN
+F 2 "RocketScreamKiCadLib:R_0603" H 3800 2450 60  0001 C CNN
+F 3 "" H 3800 2650 60  0000 C CNN
+	1    3800 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L RocketScreamKiCadLib:GND #PWR019
+U 1 1 560CDC1B
+P 9200 2600
+F 0 "#PWR019" H 9200 2350 50  0001 C CNN
+F 1 "GND" H 9200 2450 50  0001 C CNN
+F 2 "" H 9200 2600 60  0000 C CNN
+F 3 "" H 9200 2600 60  0000 C CNN
+	1    9200 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:CAPACITOR-CERAMIC C2
+U 1 1 560CDDF7
+P 7800 1350
+F 0 "C2" H 7850 1450 50  0000 L CNN
+F 1 "10uF 16V X5R" H 7150 1350 50  0000 L CNN
+F 2 "RocketScreamKiCadLib:C_0603" H 7800 1150 30  0001 C CNN
+F 3 "" H 7800 1350 60  0000 C CNN
+	1    7800 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:GND #PWR012
+U 1 1 560CE303
+P 7800 2100
+F 0 "#PWR012" H 7800 1850 50  0001 C CNN
+F 1 "GND" H 7800 1950 50  0001 C CNN
+F 2 "" H 7800 2100 60  0000 C CNN
+F 3 "" H 7800 2100 60  0000 C CNN
+	1    7800 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:GND #PWR07
+U 1 1 560CE90B
+P 8000 1300
+F 0 "#PWR07" H 8000 1050 50  0001 C CNN
+F 1 "GND" H 8000 1150 50  0001 C CNN
+F 2 "" H 8000 1300 60  0000 C CNN
+F 3 "" H 8000 1300 60  0000 C CNN
+	1    8000 1300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8400 850 
+NoConn ~ 8400 1450
+$Comp
+L RocketScreamKiCadLib:VBAT #PWR04
+U 1 1 560CF628
+P 7800 1000
+F 0 "#PWR04" H 7800 850 50  0001 C CNN
+F 1 "VBAT" H 7800 1140 50  0000 C CNN
+F 2 "" H 7800 1000 60  0000 C CNN
+F 3 "" H 7800 1000 60  0000 C CNN
+	1    7800 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:VBUS #PWR016
+U 1 1 560CF79E
+P 9000 2100
+F 0 "#PWR016" H 9000 1950 50  0001 C CNN
+F 1 "VBUS" H 9000 2240 50  0000 C CNN
+F 2 "" H 9000 2100 60  0000 C CNN
+F 3 "" H 9000 2100 60  0000 C CNN
+	1    9000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:CAPACITOR-CERAMIC C5
+U 1 1 560D084D
+P 9000 2450
+F 0 "C5" V 8750 2450 50  0000 C CNN
+F 1 "10uF 16V X5R" V 8850 2450 50  0000 C CNN
+F 2 "RocketScreamKiCadLib:C_0603" H 9000 2250 30  0001 C CNN
+F 3 "" H 9000 2450 60  0000 C CNN
+	1    9000 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:CAPACITOR-CERAMIC C6
+U 1 1 560D1991
+P 10800 2450
+F 0 "C6" V 10950 2450 50  0000 C CNN
+F 1 "22uF 10V X5R" V 11050 2450 50  0000 C CNN
+F 2 "RocketScreamKiCadLib:C_0603" H 10800 2250 30  0001 C CNN
+F 3 "" H 10800 2450 60  0000 C CNN
+	1    10800 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:GND #PWR021
+U 1 1 560D1CE0
+P 10800 2700
+F 0 "#PWR021" H 10800 2450 50  0001 C CNN
+F 1 "GND" H 10800 2550 50  0001 C CNN
+F 2 "" H 10800 2700 60  0000 C CNN
+F 3 "" H 10800 2700 60  0000 C CNN
+	1    10800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:3V3 #PWR017
+U 1 1 560D20BF
+P 10800 2100
+F 0 "#PWR017" H 10800 1950 50  0001 C CNN
+F 1 "3V3" H 10800 2240 50  0000 C CNN
+F 2 "" H 10800 2100 60  0000 C CNN
+F 3 "" H 10800 2100 60  0000 C CNN
+	1    10800 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:FUSE F1
+U 1 1 560D85A2
+P 5100 4150
+F 0 "F1" H 5100 4400 50  0000 C CNN
+F 1 "MF-FSMF050X" H 5100 4300 50  0000 C CNN
+F 2 "RocketScreamKiCadLib:MF-FSMF" H 5100 4000 60  0001 C CNN
+F 3 "" H 5100 4150 60  0000 C CNN
+	1    5100 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:INDUCTOR L2
+U 1 1 560D92F6
+P 5800 4150
+F 0 "L2" H 5800 4100 50  0000 C CNN
+F 1 "BLM18KG221SN1D" H 5800 4250 50  0000 C CNN
+F 2 "RocketScreamKiCadLib:I_0603" H 5800 4000 60  0001 C CNN
+F 3 "" V 5800 4150 60  0000 C CNN
+	1    5800 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:GND #PWR027
+U 1 1 560DBDF9
+P 7850 4950
+F 0 "#PWR027" H 7850 4700 50  0001 C CNN
+F 1 "GND" H 7850 4800 50  0001 C CNN
+F 2 "" H 7850 4950 60  0000 C CNN
+F 3 "" H 7850 4950 60  0000 C CNN
+	1    7850 4950
+	1    0    0    -1  
+$EndComp
+Text Label 5000 4750 2    50   ~ 0
+USB-
+Text Label 5000 4550 2    50   ~ 0
+USB+
+$Comp
+L RocketScreamKiCadLib:RESISTOR R1
+U 1 1 560FC4FC
+P 2600 1900
+F 0 "R1" V 2550 1700 60  0000 C CNN
+F 1 "10K" V 2650 1700 60  0000 C CNN
+F 2 "RocketScreamKiCadLib:R_0603" H 2600 1700 60  0001 C CNN
+F 3 "" H 2600 1900 60  0000 C CNN
+	1    2600 1900
+	0    -1   1    0   
+$EndComp
+$Comp
+L RocketScreamKiCadLib:GND #PWR06
+U 1 1 560FD484
+P 3300 2350
+F 0 "#PWR06" H 3300 2100 50  0001 C CNN
+F 1 "GND" H 3300 2200 50  0001 C CNN
+F 2 "" H 3300 2350 60  0000 C CNN
+F 3 "" H 3300 2350 60  0000 C CNN
+	1    3300 2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:3V3 #PWR01
+U 1 1 560FD719
+P 2600 1550
+F 0 "#PWR01" H 2600 1400 50  0001 C CNN
+F 1 "3V3" H 2600 1690 50  0000 C CNN
+F 2 "" H 2600 1550 60  0000 C CNN
+F 3 "" H 2600 1550 60  0000 C CNN
+	1    2600 1550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:CAPACITOR-CERAMIC C4
+U 1 1 56101EA7
+P 2050 1450
+F 0 "C4" H 2150 1450 50  0000 L CNN
+F 1 "100nF" H 2150 1350 50  0000 L CNN
+F 2 "RocketScreamKiCadLib:C_0603" H 2050 1250 30  0001 C CNN
+F 3 "" H 2050 1450 60  0000 C CNN
+	1    2050 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:CAPACITOR-CERAMIC C3
+U 1 1 561023B1
+P 1850 1450
+F 0 "C3" H 1600 1450 50  0000 L CNN
+F 1 "22uF 10V X5R" H 1200 1350 50  0000 L CNN
+F 2 "RocketScreamKiCadLib:C_0603" H 1850 1250 30  0001 C CNN
+F 3 "" H 1850 1450 60  0000 C CNN
+	1    1850 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:GND #PWR013
+U 1 1 5610322B
+P 1950 1800
+F 0 "#PWR013" H 1950 1550 50  0001 C CNN
+F 1 "GND" H 1950 1650 50  0001 C CNN
+F 2 "" H 1950 1800 60  0000 C CNN
+F 3 "" H 1950 1800 60  0000 C CNN
+	1    1950 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:VEXT #PWR03
+U 1 1 560D4CD8
+P 4700 1000
+F 0 "#PWR03" H 4700 850 50  0001 C CNN
+F 1 "VEXT" H 4700 1140 50  0000 C CNN
+F 2 "" H 4700 1000 60  0000 C CNN
+F 3 "" H 4700 1000 60  0000 C CNN
+	1    4700 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:MOUNT_HOLE M1
+U 1 1 560F68E5
+P 5550 6200
+F 0 "M1" H 5550 6350 50  0000 C CNN
+F 1 "MOUNT_HOLE" H 5550 6050 50  0001 C CNN
+F 2 "RocketScreamKiCadLib:HOLE_NPTH_2.2MM" H 5575 5975 50  0001 C CNN
+F 3 "" H 5550 6200 50  0000 C CNN
+	1    5550 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:MOUNT_HOLE M2
+U 1 1 560F6B9C
+P 5800 6200
+F 0 "M2" H 5800 6350 50  0000 C CNN
+F 1 "MOUNT_HOLE" H 5800 6050 50  0001 C CNN
+F 2 "RocketScreamKiCadLib:HOLE_NPTH_2.2MM" H 5825 5975 50  0001 C CNN
+F 3 "" H 5800 6200 50  0000 C CNN
+	1    5800 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:3V3 #PWR031
+U 1 1 56100084
+P 1500 6700
+F 0 "#PWR031" H 1500 6550 50  0001 C CNN
+F 1 "3V3" H 1500 6840 50  0000 C CNN
+F 2 "" H 1500 6700 60  0000 C CNN
+F 3 "" H 1500 6700 60  0000 C CNN
+	1    1500 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:VBUS #PWR032
+U 1 1 56100A50
+P 1700 6800
+F 0 "#PWR032" H 1700 6650 50  0001 C CNN
+F 1 "VBUS" H 1700 6940 50  0000 C CNN
+F 2 "" H 1700 6800 60  0000 C CNN
+F 3 "" H 1700 6800 60  0000 C CNN
+	1    1700 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:VIN #PWR035
+U 1 1 56102687
+P 2100 7000
+F 0 "#PWR035" H 2100 6850 50  0001 C CNN
+F 1 "VIN" H 2100 7140 50  0000 C CNN
+F 2 "" H 2100 7000 60  0000 C CNN
+F 3 "" H 2100 7000 60  0000 C CNN
+	1    2100 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:VBAT #PWR036
+U 1 1 56105012
+P 2300 7200
+F 0 "#PWR036" H 2300 7050 50  0001 C CNN
+F 1 "VBAT" H 2300 7340 50  0000 C CNN
+F 2 "" H 2300 7200 60  0000 C CNN
+F 3 "" H 2300 7200 60  0000 C CNN
+	1    2300 7200
+	1    0    0    -1  
+$EndComp
+Text Label 2500 2250 2    50   ~ 0
+RST
+$Comp
+L RocketScreamKiCadLib:CAPACITOR-CERAMIC C8
+U 1 1 56127329
+P 6200 4400
+F 0 "C8" H 6000 4400 50  0000 L CNN
+F 1 "10uF 16V X5R" H 5550 4300 50  0000 L CNN
+F 2 "RocketScreamKiCadLib:C_0603" H 6200 4200 30  0001 C CNN
+F 3 "" H 6200 4400 60  0000 C CNN
+	1    6200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:LOGO-OSHW LOGO1
+U 1 1 5614BC08
+P 10850 6050
+F 0 "LOGO1" H 10850 6150 60  0001 C CNN
+F 1 "LOGO-OSHW" H 10850 5950 60  0001 C CNN
+F 2 "RocketScreamKiCadLib:LOGO-OSHW_XXSmall" H 10850 5850 60  0001 C CNN
+F 3 "" H 10850 6050 60  0000 C CNN
+	1    10850 6050
+	1    0    0    -1  
+$EndComp
+Text Notes 9750 5950 0    180  ~ 36
+Logo
+Text Notes 5650 5850 0    120  ~ 24
+Mounting
+Text Notes 1250 5400 0    120  ~ 24
+Pins Breakout
+Text Notes 5400 6850 0    120  ~ 24
+LED
+Text Notes 6500 2350 0    60   ~ 0
+Battery Charger
+Text Notes 7350 3800 0    120  ~ 24
+USB
+Text Notes 2200 800  2    120  ~ 24
+ESP32
+$Comp
+L RocketScreamKiCadLib:VUSB #PWR026
+U 1 1 5641B371
+P 6200 4050
+F 0 "#PWR026" H 6200 3900 50  0001 C CNN
+F 1 "VUSB" H 6200 4190 50  0000 C CNN
+F 2 "" H 6200 4050 60  0000 C CNN
+F 3 "" H 6200 4050 60  0000 C CNN
+	1    6200 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:LED-SINGLE D4
+U 1 1 564272CB
+P 5950 7200
+F 0 "D4" V 5950 7400 50  0000 C CNN
+F 1 "Yellow" V 5850 7400 50  0000 C CNN
+F 2 "RocketScreamKiCadLib:LED_0603" H 5950 6950 60  0001 C CNN
+F 3 "" H 5950 7200 60  0000 C CNN
+	1    5950 7200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RocketScreamKiCadLib:DIODE_DUAL_Schottky D1
+U 1 1 5642C52A
+P 4300 1100
+F 0 "D1" H 4500 1100 50  0000 C CNN
+F 1 "PMEG3020CPA" H 4300 850 50  0000 C CNN
+F 2 "RocketScreamKiCadLib:SOT-1016" H 4300 750 60  0001 C CNN
+F 3 "" H 4300 1200 60  0000 C CNN
+	1    4300 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L RocketScreamKiCadLib:GND #PWR037
+U 1 1 564ADCE0
+P 1300 7500
+F 0 "#PWR037" H 1300 7250 50  0001 C CNN
+F 1 "GND" H 1300 7350 50  0001 C CNN
+F 2 "" H 1300 7500 60  0000 C CNN
+F 3 "" H 1300 7500 60  0000 C CNN
+	1    1300 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:LOGO-KICAD LOGO2
+U 1 1 564C2BD9
+P 10800 6400
+F 0 "LOGO2" H 10800 6500 60  0001 C CNN
+F 1 "LOGO-KICAD" H 10800 6300 60  0001 C CNN
+F 2 "RocketScreamKiCadLib:LOGO-KICAD_XSmall" H 10800 6200 60  0001 C CNN
+F 3 "" H 10800 6400 60  0000 C CNN
+	1    10800 6400
+	1    0    0    -1  
+$EndComp
+Text Notes 3600 1300 0    60   ~ 0
+VIN:1.8-6V
+Text Notes 7000 5850 0    120  ~ 24
+Notes
+Text Notes 7000 6300 0    60   ~ 0
+1. All capacitors are \nX7R 50V unless specified.\n2. All resistors are 0.1W \nthick film 1% unless specified.
+Text Notes 5450 6400 0    60   ~ 0
+M2.5 size
+Text Notes 800  7100 1    60   ~ 0
+2.54 mm (0.1") breakout
+Text Notes 3300 7200 1    60   ~ 0
+2.54 mm (0.1") breakout
+Text Notes 4950 4300 0    60   ~ 0
+500mA
+Wire Wire Line
+	1850 1200 1950 1200
+Wire Wire Line
+	900  2150 700  2150
+Wire Wire Line
+	900  2250 700  2250
+Wire Wire Line
+	900  2350 700  2350
+Wire Wire Line
+	900  2450 700  2450
+Wire Wire Line
+	900  2550 700  2550
+Wire Wire Line
+	900  2650 700  2650
+Wire Wire Line
+	900  2750 700  2750
+Wire Wire Line
+	900  2850 700  2850
+Wire Wire Line
+	900  2950 700  2950
+Wire Wire Line
+	900  3050 700  3050
+Wire Wire Line
+	900  3150 700  3150
+Wire Wire Line
+	900  3250 700  3250
+Wire Wire Line
+	900  3350 700  3350
+Wire Wire Line
+	900  3450 700  3450
+Wire Wire Line
+	900  3550 700  3550
+Wire Wire Line
+	900  3650 700  3650
+Wire Wire Line
+	2400 4750 2400 4650
+Wire Wire Line
+	900  4650 700  4650
+Wire Wire Line
+	900  4550 700  4550
+Wire Wire Line
+	900  4450 700  4450
+Wire Wire Line
+	900  4350 700  4350
+Wire Wire Line
+	900  4250 700  4250
+Wire Wire Line
+	900  4150 700  4150
+Wire Wire Line
+	900  4050 700  4050
+Wire Wire Line
+	900  3950 700  3950
+Wire Wire Line
+	6550 6900 6750 6900
+Wire Wire Line
+	4600 1100 4700 1100
+Wire Wire Line
+	4700 1500 4700 1600
+Wire Wire Line
+	4700 1000 4700 1100
+Wire Wire Line
+	3800 2900 3800 3000
+Wire Wire Line
+	8100 1200 8000 1200
+Wire Wire Line
+	8000 1200 8000 1300
+Wire Wire Line
+	7800 1000 7800 1100
+Connection ~ 7800 1100
+Wire Wire Line
+	7850 4850 7850 4950
+Wire Wire Line
+	2700 2250 2600 2250
+Wire Wire Line
+	2600 2250 2600 2150
+Connection ~ 2600 2250
+Wire Wire Line
+	3200 2250 3300 2250
+Wire Wire Line
+	3300 2250 3300 2350
+Wire Wire Line
+	2600 1550 2600 1650
+Wire Wire Line
+	2050 1300 2050 1200
+Wire Wire Line
+	1850 1600 1850 1700
+Wire Wire Line
+	1850 1700 1950 1700
+Wire Wire Line
+	2050 1700 2050 1600
+Wire Wire Line
+	1950 1800 1950 1700
+Connection ~ 1950 1700
+Wire Wire Line
+	1200 6800 1500 6800
+Wire Wire Line
+	1500 6800 1500 6700
+Wire Wire Line
+	1200 6900 1700 6900
+Wire Wire Line
+	1700 6900 1700 6800
+Wire Wire Line
+	1200 7000 1900 7000
+Wire Wire Line
+	1900 7000 1900 6900
+Wire Wire Line
+	1200 7100 2100 7100
+Wire Wire Line
+	2100 7100 2100 7000
+Wire Wire Line
+	1200 7300 2300 7300
+Wire Wire Line
+	2300 7300 2300 7200
+Wire Wire Line
+	2850 6000 2650 6000
+Wire Wire Line
+	2650 6100 2850 6100
+Wire Wire Line
+	2650 6200 2850 6200
+Wire Wire Line
+	2650 6300 2850 6300
+Wire Wire Line
+	2650 6400 2850 6400
+Wire Wire Line
+	2650 6500 2850 6500
+Wire Wire Line
+	2650 6600 2850 6600
+Wire Wire Line
+	2650 6700 2850 6700
+Wire Wire Line
+	2650 6800 2850 6800
+Wire Wire Line
+	2650 6900 2850 6900
+Wire Wire Line
+	2650 7000 2850 7000
+Wire Wire Line
+	2650 7100 2850 7100
+Wire Wire Line
+	2650 7200 2850 7200
+Wire Wire Line
+	2650 7300 2850 7300
+Wire Wire Line
+	2650 7400 2850 7400
+Wire Notes Line
+	600  600  600  5100
+Wire Notes Line
+	600  5100 3400 5100
+Wire Notes Line
+	3400 5100 3400 600 
+Wire Notes Line
+	3400 600  600  600 
+Wire Notes Line
+	600  5200 600  7700
+Wire Notes Line
+	600  7700 3400 7700
+Wire Notes Line
+	3400 7700 3400 5200
+Wire Notes Line
+	3400 5200 600  5200
+Wire Notes Line
+	5350 5650 5350 6550
+Wire Notes Line
+	5350 6550 6850 6550
+Wire Notes Line
+	6850 6550 6850 5650
+Wire Notes Line
+	6850 5650 5350 5650
+Wire Notes Line
+	3500 3500 3500 600 
+Wire Notes Line
+	8600 5650 8600 6650
+Wire Notes Line
+	8600 6650 11150 6650
+Wire Notes Line
+	11150 6650 11150 5650
+Wire Notes Line
+	11150 5650 8600 5650
+Wire Notes Line
+	5350 6650 5350 7700
+Wire Notes Line
+	5350 7700 6850 7700
+Wire Notes Line
+	6850 7700 6850 6650
+Wire Notes Line
+	6850 6650 5350 6650
+Wire Wire Line
+	700  3850 900  3850
+Wire Wire Line
+	3900 900  3900 1000
+Wire Wire Line
+	3900 1000 4000 1000
+Wire Wire Line
+	3800 1100 3800 1200
+Wire Wire Line
+	3800 1200 4000 1200
+Wire Wire Line
+	1200 7400 1300 7400
+Wire Wire Line
+	1300 7400 1300 7500
+Wire Wire Line
+	2850 5800 2650 5800
+Wire Wire Line
+	2850 5900 2650 5900
+Wire Notes Line
+	3500 5650 5250 5650
+Wire Notes Line
+	5250 5650 5250 7700
+Wire Notes Line
+	5250 7700 3500 7700
+Wire Notes Line
+	3500 7700 3500 5650
+Text Notes 3600 6050 0    120  ~ 24
+ Battery \nMonitoring
+$Comp
+L RocketScreamKiCadLib:RESISTOR R7
+U 1 1 59CF799D
+P 4950 6250
+F 0 "R7" V 4900 6400 60  0000 C CNN
+F 1 "1M" V 5000 6400 60  0000 C CNN
+F 2 "RocketScreamKiCadLib:R_0603" H 4950 6050 60  0001 C CNN
+F 3 "" H 4950 6250 60  0000 C CNN
+	1    4950 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L RocketScreamKiCadLib:RESISTOR R8
+U 1 1 59CF7B25
+P 4950 6950
+F 0 "R8" V 5000 6800 60  0000 C CNN
+F 1 "1M" V 4900 6800 60  0000 C CNN
+F 2 "RocketScreamKiCadLib:R_0603" H 4950 6750 60  0001 C CNN
+F 3 "" H 4950 6950 60  0000 C CNN
+	1    4950 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RocketScreamKiCadLib:GND #PWR029
+U 1 1 59CF8A85
+P 4950 7400
+F 0 "#PWR029" H 4950 7150 50  0001 C CNN
+F 1 "GND" H 4950 7250 50  0001 C CNN
+F 2 "" H 4950 7400 60  0000 C CNN
+F 3 "" H 4950 7400 60  0000 C CNN
+	1    4950 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 6500 4950 6600
+Wire Wire Line
+	4950 7200 4950 7300
+$Comp
+L RocketScreamKiCadLib:VBAT #PWR024
+U 1 1 59CF95E6
+P 4950 5900
+F 0 "#PWR024" H 4950 5750 50  0001 C CNN
+F 1 "VBAT" H 4950 6040 50  0000 C CNN
+F 2 "" H 4950 5900 60  0000 C CNN
+F 3 "" H 4950 5900 60  0000 C CNN
+	1    4950 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 5900 4950 6000
+$Comp
+L RocketScreamKiCadLib:CAPACITOR-CERAMIC C7
+U 1 1 59CFA1F1
+P 4650 6950
+F 0 "C7" H 4800 6900 50  0000 L CNN
+F 1 "100nF" H 4750 7000 50  0000 L CNN
+F 2 "RocketScreamKiCadLib:C_0603" H 4650 6750 30  0001 C CNN
+F 3 "" H 4650 6950 60  0000 C CNN
+	1    4650 6950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4450 6600 4650 6600
+Wire Wire Line
+	4650 6600 4650 6800
+Connection ~ 4950 6600
+Wire Wire Line
+	4650 7100 4650 7300
+Wire Wire Line
+	4650 7300 4950 7300
+Connection ~ 4950 7300
+Connection ~ 4650 6600
+Wire Wire Line
+	7800 1100 7800 1200
+Wire Wire Line
+	7800 1100 8100 1100
+Wire Wire Line
+	2600 2250 2300 2250
+Wire Wire Line
+	1850 1200 1850 1300
+Wire Wire Line
+	1950 1700 2050 1700
+Wire Wire Line
+	4950 6600 4950 6700
+Wire Wire Line
+	4950 7300 4950 7400
+Wire Wire Line
+	4650 6600 4950 6600
+$Comp
+L RocketScreamKiCadLib:INDUCTOR L1
+U 1 1 5AB13A9E
+P 9800 1800
+F 0 "L1" H 9800 2002 50  0000 C CNN
+F 1 "DFE252012P-2R2M=P2" H 9800 1911 50  0000 C CNN
+F 2 "RocketScreamKiCadLib:DFE2520" H 9800 1650 60  0001 C CNN
+F 3 "" V 9800 1800 60  0000 C CNN
+	1    9800 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 2600 9000 2700
+Wire Wire Line
+	9500 1800 9200 1800
+Wire Wire Line
+	9200 1800 9200 2100
+Wire Wire Line
+	9200 2100 9300 2100
+Wire Wire Line
+	10100 1800 10400 1800
+Wire Wire Line
+	10400 1800 10400 2100
+Wire Wire Line
+	10400 2100 10300 2100
+Wire Wire Line
+	10800 2100 10800 2200
+Wire Wire Line
+	10800 2200 10800 2300
+Connection ~ 10800 2200
+Wire Wire Line
+	10800 2600 10800 2700
+Wire Wire Line
+	9200 2200 9000 2200
+Wire Wire Line
+	9000 2200 9000 2300
+Wire Wire Line
+	9000 2100 9000 2200
+Connection ~ 9000 2200
+$Comp
+L RocketScreamKiCadLib:GND #PWR020
+U 1 1 5AD0E275
+P 9000 2700
+F 0 "#PWR020" H 9000 2450 50  0001 C CNN
+F 1 "GND" H 9000 2550 50  0001 C CNN
+F 2 "" H 9000 2700 60  0000 C CNN
+F 3 "" H 9000 2700 60  0000 C CNN
+	1    9000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:DIODE_Schottky D3
+U 1 1 5ADDB091
+P 4100 1950
+F 0 "D3" H 4100 1850 50  0000 C CNN
+F 1 "B16WS" H 4100 2050 50  0000 C CNN
+F 2 "RocketScreamKiCadLib:SOD-323" H 4100 1750 60  0001 C CNN
+F 3 "" H 4100 1950 60  0000 C CNN
+	1    4100 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L RocketScreamKiCadLib:VBAT #PWR014
+U 1 1 5ADF865D
+P 4600 2550
+F 0 "#PWR014" H 4600 2400 50  0001 C CNN
+F 1 "VBAT" H 4600 2690 50  0000 C CNN
+F 2 "" H 4600 2550 60  0000 C CNN
+F 3 "" H 4600 2550 60  0000 C CNN
+	1    4600 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2550 4400 2650
+Wire Wire Line
+	4400 2650 4600 2650
+Wire Wire Line
+	4600 2650 4600 2550
+Wire Wire Line
+	3800 2300 4100 2300
+Wire Wire Line
+	3900 1950 3800 1950
+Wire Wire Line
+	3800 1950 3800 2300
+Wire Wire Line
+	3800 2300 3800 2400
+Connection ~ 3800 2300
+Wire Wire Line
+	4300 1950 4400 1950
+Wire Wire Line
+	4400 1950 4400 2050
+$Comp
+L RocketScreamKiCadLib:VEXT #PWR09
+U 1 1 5AEE42E0
+P 3800 1850
+F 0 "#PWR09" H 3800 1700 50  0001 C CNN
+F 1 "VEXT" H 3800 1990 50  0000 C CNN
+F 2 "" H 3800 1850 60  0000 C CNN
+F 3 "" H 3800 1850 60  0000 C CNN
+	1    3800 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 1850 3800 1950
+Connection ~ 3800 1950
+$Comp
+L RocketScreamKiCadLib:VBUS #PWR010
+U 1 1 5AF02649
+P 4400 1850
+F 0 "#PWR010" H 4400 1700 50  0001 C CNN
+F 1 "VBUS" H 4400 1990 50  0000 C CNN
+F 2 "" H 4400 1850 60  0000 C CNN
+F 3 "" H 4400 1850 60  0000 C CNN
+	1    4400 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 1850 4400 1950
+Connection ~ 4400 1950
+Text Label 9250 1800 0    60   ~ 0
+LX2
+Text Label 10150 1800 0    60   ~ 0
+LX1
+Text Notes 3550 7600 0    60   ~ 0
+Scaling down maximum 6V to half
+$Comp
+L RocketScreamKiCadLib:GND #PWR08
+U 1 1 5AC3F587
+P 5200 2100
+F 0 "#PWR08" H 5200 1850 50  0001 C CNN
+F 1 "GND" H 5200 1950 50  0001 C CNN
+F 2 "" H 5200 2100 60  0000 C CNN
+F 3 "" H 5200 2100 60  0000 C CNN
+	1    5200 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 1100 4700 1200
+Connection ~ 4700 1100
+Wire Wire Line
+	6000 1300 5900 1300
+Wire Wire Line
+	5900 1300 5900 1400
+$Comp
+L RocketScreamKiCadLib:RESISTOR R2
+U 1 1 5AEA1472
+P 5650 1200
+F 0 "R2" H 5650 1300 60  0000 C CNN
+F 1 "5K1" H 5650 1400 60  0000 C CNN
+F 2 "RocketScreamKiCadLib:R_0603" H 5650 1000 60  0001 C CNN
+F 3 "" H 5650 1200 60  0000 C CNN
+	1    5650 1200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5900 1200 6000 1200
+$Comp
+L RocketScreamKiCadLib:LED-SINGLE D2
+U 1 1 5AF0678D
+P 5100 1200
+F 0 "D2" H 5100 1300 50  0000 C CNN
+F 1 "Red" H 5100 1400 50  0000 C CNN
+F 2 "RocketScreamKiCadLib:LED_0603" H 5100 950 60  0001 C CNN
+F 3 "" H 5100 1200 60  0000 C CNN
+	1    5100 1200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5300 1200 5400 1200
+Wire Wire Line
+	4800 1100 4800 1200
+Wire Wire Line
+	4800 1200 4900 1200
+Wire Wire Line
+	4800 1100 6000 1100
+Wire Wire Line
+	4800 1100 4700 1100
+Connection ~ 4800 1100
+Text Notes 8100 1850 0    60   ~ 0
+JST PH 2.0mm\n   Battery \n Connector
+Text Notes 3600 1600 0    60   ~ 0
+Solar\npanel\ncompatible
+Text Notes 4525 2200 0    60   ~ 0
+  Power \n  Source\nMultiplexer
+$Comp
+L RocketScreamKiCadLib:GND #PWR030
+U 1 1 5AD78DD5
+P 5950 7500
+F 0 "#PWR030" H 5950 7250 50  0001 C CNN
+F 1 "GND" H 5950 7350 50  0001 C CNN
+F 2 "" H 5950 7500 60  0000 C CNN
+F 3 "" H 5950 7500 60  0000 C CNN
+	1    5950 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 7400 5950 7500
+Wire Wire Line
+	6050 6900 5950 6900
+Wire Wire Line
+	5950 6900 5950 7000
+Wire Wire Line
+	9300 2500 9200 2500
+Wire Wire Line
+	9300 2200 9200 2200
+Wire Wire Line
+	9200 2200 9200 2300
+Wire Wire Line
+	9200 2400 9300 2400
+Wire Wire Line
+	9300 2300 9200 2300
+Connection ~ 9200 2300
+Wire Wire Line
+	9200 2300 9200 2400
+$Comp
+L RocketScreamKiCadLib:GND #PWR023
+U 1 1 5BFB2419
+P 10500 3300
+F 0 "#PWR023" H 10500 3050 50  0001 C CNN
+F 1 "GND" H 10500 3150 50  0001 C CNN
+F 2 "" H 10500 3300 60  0000 C CNN
+F 3 "" H 10500 3300 60  0000 C CNN
+	1    10500 3300
+	1    0    0    -1  
+$EndComp
+Connection ~ 9200 2200
+$Comp
+L RocketScreamKiCadLib:GND #PWR015
+U 1 1 5BE92C52
+P 3800 3000
+F 0 "#PWR015" H 3800 2750 50  0001 C CNN
+F 1 "GND" H 3800 2850 50  0001 C CNN
+F 2 "" H 3800 3000 60  0000 C CNN
+F 3 "" H 3800 3000 60  0000 C CNN
+	1    3800 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 1100 7100 1100
+$Comp
+L RocketScreamKiCadLib:LOGO-ROCKET-SCREAM-HORIZONTAL LOGO3
+U 1 1 5C1C5E9A
+P 9850 6400
+F 0 "LOGO3" H 9850 6200 60  0001 C CNN
+F 1 "LOGO-ROCKET-SCREAM-HORIZONTAL" H 9850 6600 60  0001 C CNN
+F 2 "RocketScreamKiCadLib:LOGO-ROCKET-SCREAM_Horizontal_XXSmall" H 9750 6100 50  0001 C CNN
+F 3 "" H 9850 6400 50  0001 C CNN
+	1    9850 6400
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	6950 5650 8500 5650
+Wire Notes Line
+	8500 5650 8500 6650
+Wire Notes Line
+	8500 6650 6950 6650
+Wire Notes Line
+	6950 6650 6950 5650
+Wire Notes Line
+	11150 600  11150 3500
+Text Notes 9250 3100 0    60   ~ 0
+Buck-Boost Converter
+Text Notes 10650 1900 0    60   ~ 0
+400mA
+Text Notes 8900 1250 0    60   ~ 12
+Battery options (rechargeable):
+Text Notes 8900 1350 0    60   ~ 0
+1. Li-Ion or Li-Pol
+Text Notes 8900 1450 0    60   ~ 0
+2. 3xNiMH or 4xNiMH
+Text Notes 8900 1550 0    60   ~ 0
+3. LiFePO4
+Text Notes 8900 750  0    60   ~ 12
+Battery options (non-rechargeable):
+Text Notes 8900 850  0    60   ~ 0
+1. Alkaline 2x1.5V or 3x1.5V (AAA, AA, B, C, D)
+Text Notes 8900 1050 0    60   ~ 0
+3. Lithium Manganese Dioxide (Li-MnO2) 3.0V
+Wire Notes Line
+	3500 3600 3500 5550
+Wire Notes Line
+	3500 5550 11150 5550
+Wire Notes Line
+	11150 5550 11150 3600
+Wire Notes Line
+	11150 3600 3500 3600
+$Comp
+L RocketScreamKiCadLib:MOSFET-P Q1
+U 1 1 5D34F641
+P 4400 2300
+F 0 "Q1" H 4200 2450 50  0000 L CNN
+F 1 "DMP2165UW-7" H 4550 2300 50  0000 L CNN
+F 2 "RocketScreamKiCadLib:SOT-323" H 4400 2000 29  0001 C CNN
+F 3 "" H 4300 2300 60  0000 C CNN
+	1    4400 2300
+	1    0    0    1   
+$EndComp
+$Comp
+L RocketScreamKiCadLib:LOGO-ROCKET-SCREAM-WITHOUT-TEXT LOGO4
+U 1 1 5F8976E8
+P 9550 6050
+F 0 "LOGO4" H 9550 6300 60  0001 C CNN
+F 1 "LOGO-ROCKET-SCREAM-WITHOUT-TEXT" H 9500 5800 60  0001 C CNN
+F 2 "RocketScreamKiCadLib:LOGO-ROCKET-SCREAM_Without_Text_XXXXSmall" H 9450 6200 60  0001 C CNN
+F 3 "" H 9550 6050 60  0001 C CNN
+	1    9550 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:ESP32-WROOM-32xx U2
+U 1 1 5FB001EE
+P 1600 3400
+F 0 "U2" H 1600 4915 50  0000 C CNN
+F 1 "ESP32-WROOM-32UE" H 1600 4824 50  0000 C CNN
+F 2 "RocketScreamKiCadLib:ESP32-WROOM-32UE_ShorterPads" H 1600 1900 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf" H 1600 4250 50  0001 C CNN
+	1    1600 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:USB-C_16Pins J2
+U 1 1 5FBF7765
+P 4150 4700
+F 0 "J2" H 4150 5515 50  0000 C CNN
+F 1 "USB-C_16Pins" H 4150 5424 50  0000 C CNN
+F 2 "RocketScreamKiCadLib:USB-TYPE-C-16PIN-SMD" H 4150 4000 50  0001 C CNN
+F 3 "" H 5250 4550 50  0001 C CNN
+	1    4150 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  3750 900  3750
+Wire Wire Line
+	2400 4650 2300 4650
+Wire Wire Line
+	2300 4550 2400 4550
+Wire Wire Line
+	2400 4550 2400 4650
+Connection ~ 2400 4650
+Wire Wire Line
+	2300 4450 2400 4450
+Wire Wire Line
+	2400 4450 2400 4550
+Connection ~ 2400 4550
+Wire Wire Line
+	2300 4350 2400 4350
+Wire Wire Line
+	2400 4350 2400 4450
+Connection ~ 2400 4450
+Wire Wire Line
+	2300 4250 2400 4250
+Wire Wire Line
+	2400 4250 2400 4350
+Connection ~ 2400 4350
+Wire Wire Line
+	2300 4150 2400 4150
+Wire Wire Line
+	2400 4150 2400 4250
+Connection ~ 2400 4250
+Wire Wire Line
+	2300 4050 2400 4050
+Wire Wire Line
+	2400 4050 2400 4150
+Connection ~ 2400 4150
+Wire Wire Line
+	2300 3950 2400 3950
+Wire Wire Line
+	2400 3950 2400 4050
+Connection ~ 2400 4050
+Wire Wire Line
+	2300 3850 2400 3850
+Wire Wire Line
+	2400 3850 2400 3950
+Connection ~ 2400 3950
+Wire Wire Line
+	2300 3750 2400 3750
+Wire Wire Line
+	2400 3750 2400 3850
+Connection ~ 2400 3850
+Wire Wire Line
+	2300 3650 2400 3650
+Wire Wire Line
+	2400 3650 2400 3750
+Connection ~ 2400 3750
+Wire Wire Line
+	2300 3550 2400 3550
+Wire Wire Line
+	2400 3550 2400 3650
+Connection ~ 2400 3650
+Text Label 700  2150 0    50   ~ 0
+IO0
+Text Label 700  2250 0    50   ~ 0
+IO1
+Text Label 700  2350 0    50   ~ 0
+IO2
+Text Label 700  2450 0    50   ~ 0
+IO3
+Text Label 700  2550 0    50   ~ 0
+IO4
+Text Label 700  2650 0    50   ~ 0
+IO5
+Text Label 700  2750 0    50   ~ 0
+IO12
+Text Label 700  2850 0    50   ~ 0
+IO13
+Text Label 700  2950 0    50   ~ 0
+IO14
+Text Label 700  3050 0    50   ~ 0
+IO15
+Text Label 700  3150 0    50   ~ 0
+IO16
+Text Label 700  3250 0    50   ~ 0
+IO17
+Text Label 700  3350 0    50   ~ 0
+IO18
+Text Label 700  3450 0    50   ~ 0
+IO19
+Text Label 700  3550 0    50   ~ 0
+IO21
+Text Label 700  3650 0    50   ~ 0
+IO22
+Text Label 700  3750 0    50   ~ 0
+IO23
+Text Label 700  3850 0    50   ~ 0
+IO25
+Text Label 700  3950 0    50   ~ 0
+IO26
+Text Label 700  4050 0    50   ~ 0
+IO27
+Text Label 700  4150 0    50   ~ 0
+IO32
+Text Label 700  4250 0    50   ~ 0
+IO33
+Text Label 700  4350 0    50   ~ 0
+IO34
+Text Label 700  4450 0    50   ~ 0
+IO35
+Text Label 700  4550 0    50   ~ 0
+IO36
+Text Label 700  4650 0    50   ~ 0
+IO39
+$Comp
+L RocketScreamKiCadLib:CONN-HDR-1x17 J4
+U 1 1 5FF29F54
+P 950 6600
+F 0 "J4" H 950 7550 60  0000 C CNN
+F 1 "CONN-HDR-1x17" V 950 6600 60  0000 C CNN
+F 2 "RocketScreamKiCadLib:HDR_1x17_Pitch2.54mm_WithoutSilk_SmallerPads" H 950 5500 60  0001 C CNN
+F 3 "" H 950 6900 60  0000 C CNN
+	1    950  6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:CONN-HDR-1x17 J3
+U 1 1 5FF2BCC0
+P 3100 6600
+F 0 "J3" H 3100 7550 60  0000 C CNN
+F 1 "CONN-HDR-1x17" V 3100 6600 60  0000 C CNN
+F 2 "RocketScreamKiCadLib:HDR_1x17_Pitch2.54mm_WithoutSilk_SmallerPads" H 3100 5500 60  0001 C CNN
+F 3 "" H 3100 6900 60  0000 C CNN
+	1    3100 6600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:CN30xx U1
+U 1 1 5FF74BC1
+P 6450 1550
+F 0 "U1" H 6250 2150 60  0000 C CNN
+F 1 "CN3082" H 6450 1550 60  0000 C CNN
+F 2 "RocketScreamKiCadLib:SOIC-8-N_8S1_ThermalPad" H 6450 700 60  0001 C CNN
+F 3 "http://www.consonance-elec.com/pdf/datasheet/DSE-CN3082.pdf" H 6450 600 60  0001 C CNN
+	1    6450 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:RESISTOR R4
+U 1 1 5FF7BE5C
+P 4950 5150
+F 0 "R4" H 4950 5350 60  0000 C CNN
+F 1 "5K1" H 4950 5250 60  0000 C CNN
+F 2 "RocketScreamKiCadLib:R_0603" H 4950 4950 60  0001 C CNN
+F 3 "" H 4950 5150 60  0000 C CNN
+	1    4950 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:RESISTOR R5
+U 1 1 5FF7D30F
+P 4950 5250
+F 0 "R5" H 4950 5050 60  0000 C CNN
+F 1 "5K1" H 4950 5150 60  0000 C CNN
+F 2 "RocketScreamKiCadLib:R_0603" H 4950 5050 60  0001 C CNN
+F 3 "" H 4950 5250 60  0000 C CNN
+	1    4950 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:TPS63900DSKR U3
+U 1 1 5FD2E7D1
+P 9800 2300
+F 0 "U3" H 9550 1950 60  0000 C CNN
+F 1 "TPS63900DSKR" H 9800 2650 60  0000 C CNN
+F 2 "RocketScreamKiCadLib:WSON-10" H 9800 1750 60  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tps63900.pdf?ts=1607153223847&ref_url=https%253A%252F%252Fwww.ti.com%252Fpower-management%252Fnon-isolated-dc-dc-switching-regulators%252Fbuck-boost-inverting%252Fbuck-boost-inverting-split-rail-converters-integrated-switch%252Fproducts.html" H 9800 2050 60  0001 C CNN
+	1    9800 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 2500 9200 2600
+Wire Wire Line
+	10300 2200 10800 2200
+$Comp
+L RocketScreamKiCadLib:GND #PWR022
+U 1 1 5FD5EB60
+P 9800 2900
+F 0 "#PWR022" H 9800 2650 50  0001 C CNN
+F 1 "GND" H 9800 2750 50  0001 C CNN
+F 2 "" H 9800 2900 60  0000 C CNN
+F 3 "" H 9800 2900 60  0000 C CNN
+	1    9800 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 2800 9800 2900
+$Comp
+L RocketScreamKiCadLib:RESISTOR R6
+U 1 1 5FD7A317
+P 10400 2850
+F 0 "R6" V 10350 2650 60  0000 C CNN
+F 1 "36K5" V 10450 2650 60  0000 C CNN
+F 2 "RocketScreamKiCadLib:R_0603" H 10400 2650 60  0001 C CNN
+F 3 "" H 10400 2850 60  0000 C CNN
+	1    10400 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L RocketScreamKiCadLib:CH340C U4
+U 1 1 5FD9DB7E
+P 8500 4500
+F 0 "U4" H 8150 5000 50  0000 C CNN
+F 1 "CH340C" H 8500 4500 50  0000 C CNN
+F 2 "RocketScreamKiCadLib:SOP-16_150mil" H 8550 3950 50  0001 C CNN
+F 3 "" H 8500 4650 50  0000 C CNN
+	1    8500 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:MBT3904DW1T1 Q2
+U 1 1 5FE26924
+P 10150 4500
+F 0 "Q2" H 10150 4950 50  0000 C CNN
+F 1 "MBT3904DW1T1" H 10150 4050 50  0000 C CNN
+F 2 "RocketScreamKiCadLib:SOT-363_ON_Semi" H 9500 4050 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/MBT3904DW1T1-D.PDF" H 10175 4973 50  0001 C CNN
+	1    10150 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L RocketScreamKiCadLib:GND #PWR0101
+U 1 1 5FEEA9B0
+P 6450 2400
+F 0 "#PWR0101" H 6450 2150 50  0001 C CNN
+F 1 "GND" H 6450 2250 50  0001 C CNN
+F 2 "" H 6450 2400 60  0000 C CNN
+F 3 "" H 6450 2400 60  0000 C CNN
+	1    6450 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:RESISTOR R11
+U 1 1 5FEEB0FB
+P 5900 1650
+F 0 "R11" V 5850 1800 60  0000 C CNN
+F 1 "100K" V 5950 1700 60  0000 L CNN
+F 2 "RocketScreamKiCadLib:R_0603" H 5900 1450 60  0001 C CNN
+F 3 "" H 5900 1650 60  0000 C CNN
+	1    5900 1650
+	0    -1   1    0   
+$EndComp
+$Comp
+L RocketScreamKiCadLib:RESISTOR R13
+U 1 1 5FEEB959
+P 5550 2000
+F 0 "R13" H 5550 2100 60  0000 C CNN
+F 1 "10K" H 5550 2200 60  0000 C CNN
+F 2 "RocketScreamKiCadLib:R_0603" H 5550 1800 60  0001 C CNN
+F 3 "" H 5550 2000 60  0000 C CNN
+	1    5550 2000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 1900 5900 2000
+Wire Wire Line
+	6000 2000 5900 2000
+Connection ~ 5900 2000
+Wire Wire Line
+	5900 2000 5800 2000
+Wire Wire Line
+	5200 2000 5200 2100
+Wire Wire Line
+	6450 2300 6450 2400
+$Comp
+L RocketScreamKiCadLib:GND #PWR0102
+U 1 1 5FF19AAD
+P 7000 2100
+F 0 "#PWR0102" H 7000 1850 50  0001 C CNN
+F 1 "GND" H 7000 1950 50  0001 C CNN
+F 2 "" H 7000 2100 60  0000 C CNN
+F 3 "" H 7000 2100 60  0000 C CNN
+	1    7000 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 1900 7000 1900
+Wire Wire Line
+	7000 1900 7000 2000
+Wire Wire Line
+	6900 2000 7000 2000
+Connection ~ 7000 2000
+Wire Wire Line
+	7000 2000 7000 2100
+$Comp
+L RocketScreamKiCadLib:RESISTOR R10
+U 1 1 5FF33A09
+P 7100 1450
+F 0 "R10" H 7100 1550 60  0000 C CNN
+F 1 "365K" H 7100 1650 60  0000 C CNN
+F 2 "RocketScreamKiCadLib:R_0603" H 7100 1250 60  0001 C CNN
+F 3 "" H 7100 1450 60  0000 C CNN
+	1    7100 1450
+	0    -1   1    0   
+$EndComp
+$Comp
+L RocketScreamKiCadLib:RESISTOR R12
+U 1 1 5FF343DA
+P 7450 1800
+F 0 "R12" H 7450 1900 60  0000 C CNN
+F 1 "510K" H 7450 2000 60  0000 C CNN
+F 2 "RocketScreamKiCadLib:R_0603" H 7450 1600 60  0001 C CNN
+F 3 "" H 7450 1800 60  0000 C CNN
+	1    7450 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:CAPACITOR-CERAMIC C9
+U 1 1 5FF378B0
+P 7450 2000
+F 0 "C9" V 7550 2000 50  0000 C TNN
+F 1 "100nF" V 7650 2000 50  0000 C TNN
+F 2 "RocketScreamKiCadLib:C_0603" H 7450 1800 30  0001 C CNN
+F 3 "" H 7450 2000 60  0000 C CNN
+	1    7450 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6900 1800 7100 1800
+Wire Wire Line
+	7100 1800 7100 1700
+Wire Wire Line
+	7100 1800 7200 1800
+Connection ~ 7100 1800
+Wire Wire Line
+	7100 1800 7100 2000
+Wire Wire Line
+	7100 2000 7300 2000
+Wire Wire Line
+	7700 1800 7800 1800
+Wire Wire Line
+	7800 1500 7800 1800
+Wire Wire Line
+	7600 2000 7800 2000
+Wire Wire Line
+	7800 2000 7800 1800
+Connection ~ 7800 1800
+Wire Wire Line
+	7100 1200 7100 1100
+Connection ~ 7100 1100
+Wire Wire Line
+	7100 1100 7800 1100
+Wire Wire Line
+	7800 2000 7800 2100
+Connection ~ 7800 2000
+$Comp
+L RocketScreamKiCadLib:ME6216AxxXG U5
+U 1 1 6001620F
+P 6650 4150
+F 0 "U5" H 6650 4437 60  0000 C CNN
+F 1 "ME6216A33XG" H 6650 4331 60  0000 C CNN
+F 2 "RocketScreamKiCadLib:SOT-23" H 6650 3500 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nanjing-Micro-One-Elec-ME6216A33M3G_C126466.pdf" H 6550 4150 60  0001 C CNN
+	1    6650 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:CAPACITOR-CERAMIC C10
+U 1 1 600272B4
+P 7100 4400
+F 0 "C10" H 7200 4400 50  0000 L CNN
+F 1 "10uF 16V X5R" H 7150 4300 50  0000 L CNN
+F 2 "RocketScreamKiCadLib:C_0603" H 7100 4200 30  0001 C CNN
+F 3 "" H 7100 4400 60  0000 C CNN
+	1    7100 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:CAPACITOR-CERAMIC C11
+U 1 1 6002E7FF
+P 2600 2500
+F 0 "C11" H 2350 2500 50  0000 L CNN
+F 1 "10uF 16V X5R" H 1950 2400 50  0000 L CNN
+F 2 "RocketScreamKiCadLib:C_0603" H 2600 2300 30  0001 C CNN
+F 3 "" H 2600 2500 60  0000 C CNN
+	1    2600 2500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:RESISTOR R15
+U 1 1 6003C723
+P 10500 5200
+F 0 "R15" H 10600 5100 60  0000 C CNN
+F 1 "10K" H 10400 5100 60  0000 C CNN
+F 2 "RocketScreamKiCadLib:R_0603" H 10500 5000 60  0001 C CNN
+F 3 "" H 10500 5200 60  0000 C CNN
+	1    10500 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L RocketScreamKiCadLib:RESISTOR R14
+U 1 1 6003F5B9
+P 9800 3800
+F 0 "R14" H 9700 3900 60  0000 C CNN
+F 1 "10K" H 9900 3900 60  0000 C CNN
+F 2 "RocketScreamKiCadLib:R_0603" H 9800 3600 60  0001 C CNN
+F 3 "" H 9800 3800 60  0000 C CNN
+	1    9800 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:GND #PWR040
+U 1 1 600620C9
+P 3600 5350
+F 0 "#PWR040" H 3600 5100 50  0001 C CNN
+F 1 "GND" H 3600 5200 50  0001 C CNN
+F 2 "" H 3600 5350 60  0000 C CNN
+F 3 "" H 3600 5350 60  0000 C CNN
+	1    3600 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 5250 3600 5250
+Wire Wire Line
+	3600 5250 3600 5350
+Wire Wire Line
+	3700 5150 3600 5150
+Wire Wire Line
+	3600 5150 3600 5250
+Connection ~ 3600 5250
+Wire Wire Line
+	3700 5050 3600 5050
+Wire Wire Line
+	3600 5050 3600 5150
+Connection ~ 3600 5150
+Wire Wire Line
+	3700 4950 3600 4950
+Wire Wire Line
+	3600 4950 3600 5050
+Connection ~ 3600 5050
+Wire Wire Line
+	3700 4850 3600 4850
+Wire Wire Line
+	3600 4850 3600 4950
+Connection ~ 3600 4950
+Wire Wire Line
+	3700 4750 3600 4750
+Wire Wire Line
+	3600 4750 3600 4850
+Connection ~ 3600 4850
+Wire Wire Line
+	3700 4650 3600 4650
+Wire Wire Line
+	3600 4650 3600 4750
+Connection ~ 3600 4750
+Wire Wire Line
+	3700 4550 3600 4550
+Wire Wire Line
+	3600 4550 3600 4650
+Connection ~ 3600 4650
+Wire Wire Line
+	4600 4150 4700 4150
+Wire Wire Line
+	4700 4150 4700 4250
+Wire Wire Line
+	4700 4250 4600 4250
+Wire Wire Line
+	4600 4350 4700 4350
+Wire Wire Line
+	4700 4350 4700 4250
+Connection ~ 4700 4250
+Wire Wire Line
+	4600 4450 4700 4450
+Wire Wire Line
+	4700 4450 4700 4350
+Connection ~ 4700 4350
+Wire Wire Line
+	5400 4150 5500 4150
+Wire Wire Line
+	4700 4150 4800 4150
+Connection ~ 4700 4150
+Wire Wire Line
+	6100 4150 6200 4150
+Wire Wire Line
+	6200 4150 6200 4050
+Wire Wire Line
+	6200 4150 6200 4250
+Connection ~ 6200 4150
+$Comp
+L RocketScreamKiCadLib:GND #PWR034
+U 1 1 6015141C
+P 6200 4650
+F 0 "#PWR034" H 6200 4400 50  0001 C CNN
+F 1 "GND" H 6200 4500 50  0001 C CNN
+F 2 "" H 6200 4650 60  0000 C CNN
+F 3 "" H 6200 4650 60  0000 C CNN
+	1    6200 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 4550 6200 4650
+Wire Wire Line
+	4600 4550 4700 4550
+Wire Wire Line
+	4600 4650 4700 4650
+Wire Wire Line
+	4700 4650 4700 4550
+Connection ~ 4700 4550
+Wire Wire Line
+	4700 4550 5000 4550
+Wire Wire Line
+	4600 4850 4700 4850
+Wire Wire Line
+	4700 4850 4700 4750
+Wire Wire Line
+	4700 4750 4600 4750
+Wire Wire Line
+	4700 4750 5000 4750
+Connection ~ 4700 4750
+Wire Wire Line
+	4600 5250 4700 5250
+Wire Wire Line
+	4600 5150 4700 5150
+NoConn ~ 4600 4950
+NoConn ~ 4600 5050
+Wire Wire Line
+	6300 4150 6200 4150
+$Comp
+L RocketScreamKiCadLib:GND #PWR039
+U 1 1 6041D236
+P 6650 4700
+F 0 "#PWR039" H 6650 4450 50  0001 C CNN
+F 1 "GND" H 6650 4550 50  0001 C CNN
+F 2 "" H 6650 4700 60  0000 C CNN
+F 3 "" H 6650 4700 60  0000 C CNN
+	1    6650 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 4600 6650 4700
+Wire Wire Line
+	7000 4150 7100 4150
+Wire Wire Line
+	7100 4150 7100 4250
+$Comp
+L RocketScreamKiCadLib:3V3OUT #PWR033
+U 1 1 60446BF6
+P 7100 4050
+F 0 "#PWR033" H 7100 3900 50  0001 C CNN
+F 1 "3V3OUT" H 7105 4223 50  0000 C CNN
+F 2 "" H 7100 4050 60  0000 C CNN
+F 3 "" H 7100 4050 60  0000 C CNN
+	1    7100 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 4050 7100 4150
+Connection ~ 7100 4150
+$Comp
+L RocketScreamKiCadLib:GND #PWR038
+U 1 1 60457DD6
+P 7100 4650
+F 0 "#PWR038" H 7100 4400 50  0001 C CNN
+F 1 "GND" H 7100 4500 50  0001 C CNN
+F 2 "" H 7100 4650 60  0000 C CNN
+F 3 "" H 7100 4650 60  0000 C CNN
+	1    7100 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 4550 7100 4650
+$Comp
+L RocketScreamKiCadLib:GND #PWR041
+U 1 1 604EA302
+P 5300 5350
+F 0 "#PWR041" H 5300 5100 50  0001 C CNN
+F 1 "GND" H 5300 5200 50  0001 C CNN
+F 2 "" H 5300 5350 60  0000 C CNN
+F 3 "" H 5300 5350 60  0000 C CNN
+	1    5300 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 5250 5300 5350
+$Comp
+L RocketScreamKiCadLib:3V3 #PWR025
+U 1 1 60516528
+P 1950 1100
+F 0 "#PWR025" H 1950 950 50  0001 C CNN
+F 1 "3V3" H 1950 1240 50  0000 C CNN
+F 2 "" H 1950 1100 60  0000 C CNN
+F 3 "" H 1950 1100 60  0000 C CNN
+	1    1950 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 1100 1950 1200
+Connection ~ 1950 1200
+Wire Wire Line
+	1950 1200 2050 1200
+$Comp
+L RocketScreamKiCadLib:GND #PWR028
+U 1 1 60553E3A
+P 2600 2750
+F 0 "#PWR028" H 2600 2500 50  0001 C CNN
+F 1 "GND" H 2600 2600 50  0001 C CNN
+F 2 "" H 2600 2750 60  0000 C CNN
+F 3 "" H 2600 2750 60  0000 C CNN
+	1    2600 2750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 2650 2600 2750
+Wire Wire Line
+	2050 1200 2400 1200
+Wire Wire Line
+	2400 1200 2400 2150
+Wire Wire Line
+	2400 2150 2300 2150
+Connection ~ 2050 1200
+Wire Wire Line
+	2600 2250 2600 2350
+Wire Notes Line
+	3500 600  11150 600 
+Wire Notes Line
+	3500 3500 11150 3500
+Wire Wire Line
+	5200 5250 5300 5250
+Wire Wire Line
+	5200 5150 5300 5150
+Wire Wire Line
+	5300 5150 5300 5250
+Connection ~ 5300 5250
+Text Label 7750 4450 0    50   ~ 0
+USB+
+Text Label 7750 4550 0    50   ~ 0
+USB-
+Wire Wire Line
+	7950 4450 7750 4450
+Wire Wire Line
+	7950 4550 7750 4550
+NoConn ~ 7950 4350
+NoConn ~ 7950 4750
+NoConn ~ 9050 4850
+NoConn ~ 9050 4750
+NoConn ~ 9050 4650
+NoConn ~ 9050 4550
+Wire Wire Line
+	7850 4850 7950 4850
+Wire Wire Line
+	7950 4250 7850 4250
+Wire Wire Line
+	7850 4250 7850 4150
+Wire Wire Line
+	7850 4150 7950 4150
+Wire Wire Line
+	7850 4150 7100 4150
+Connection ~ 7850 4150
+Wire Wire Line
+	9050 4150 9250 4150
+Wire Wire Line
+	9050 4250 9250 4250
+Text Label 9250 4450 2    50   ~ 0
+~DTR~
+Text Label 9250 4350 2    50   ~ 0
+~RTS~
+$Comp
+L RocketScreamKiCadLib:VUSB #PWR02
+U 1 1 61142B15
+P 3900 900
+F 0 "#PWR02" H 3900 750 50  0001 C CNN
+F 1 "VUSB" H 3900 1040 50  0000 C CNN
+F 2 "" H 3900 900 60  0000 C CNN
+F 3 "" H 3900 900 60  0000 C CNN
+	1    3900 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:VUSB #PWR042
+U 1 1 6114B08B
+P 1900 6900
+F 0 "#PWR042" H 1900 6750 50  0001 C CNN
+F 1 "VUSB" H 1900 7040 50  0000 C CNN
+F 2 "" H 1900 6900 60  0000 C CNN
+F 3 "" H 1900 6900 60  0000 C CNN
+	1    1900 6900
+	1    0    0    -1  
+$EndComp
+Text Label 1350 5800 2    50   ~ 0
+RST
+Wire Wire Line
+	1200 5800 1350 5800
+Wire Wire Line
+	1200 5900 1350 5900
+Wire Wire Line
+	1200 6000 1350 6000
+Wire Wire Line
+	1200 6100 1350 6100
+Wire Wire Line
+	1200 6200 1350 6200
+Wire Wire Line
+	1200 6300 1350 6300
+Wire Wire Line
+	1200 6400 1350 6400
+Wire Wire Line
+	1200 6500 1350 6500
+Wire Wire Line
+	1200 6600 1350 6600
+Wire Wire Line
+	9550 3800 9450 3800
+Wire Wire Line
+	9450 3800 9450 4450
+Wire Wire Line
+	9050 4450 9450 4450
+Wire Wire Line
+	9450 4450 9450 5000
+Wire Wire Line
+	9450 5000 9850 5000
+Wire Wire Line
+	9850 5000 9850 4900
+Connection ~ 9450 4450
+Wire Wire Line
+	10050 3800 10150 3800
+Wire Wire Line
+	10150 3800 10150 4100
+Wire Wire Line
+	10450 4100 10450 4000
+Text Label 10650 5000 2    50   ~ 0
+RST
+Wire Wire Line
+	10450 4900 10450 5000
+Wire Wire Line
+	10450 5000 10650 5000
+Wire Wire Line
+	10150 4900 10150 5200
+Wire Wire Line
+	10150 5200 10250 5200
+Wire Wire Line
+	9850 4100 9850 4000
+Wire Wire Line
+	9850 4000 9650 4000
+Wire Wire Line
+	10850 4000 10850 5200
+Wire Wire Line
+	10850 5200 10750 5200
+Wire Wire Line
+	10450 4000 10850 4000
+Wire Wire Line
+	9350 4350 9350 5400
+Wire Wire Line
+	9350 5400 10850 5400
+Wire Wire Line
+	10850 5400 10850 5200
+Wire Wire Line
+	9050 4350 9350 4350
+Connection ~ 10850 5200
+Text Label 9650 4000 0    50   ~ 0
+IO0
+Text Label 9250 4250 2    50   ~ 0
+IO1
+Text Label 9250 4150 2    50   ~ 0
+IO3
+Wire Wire Line
+	1200 6700 1350 6700
+Wire Wire Line
+	10400 3100 10400 3200
+Wire Wire Line
+	10400 3200 10500 3200
+Wire Wire Line
+	10500 3200 10500 3300
+Wire Wire Line
+	10500 3200 10600 3200
+Wire Wire Line
+	10600 3200 10600 2400
+Wire Wire Line
+	10600 2300 10300 2300
+Connection ~ 10500 3200
+Wire Wire Line
+	10300 2400 10600 2400
+Connection ~ 10600 2400
+Wire Wire Line
+	10600 2400 10600 2300
+Wire Wire Line
+	10300 2500 10400 2500
+Wire Wire Line
+	10400 2500 10400 2600
+Text Notes 5600 800  0    120  ~ 24
+Power Management
+Wire Wire Line
+	1200 7200 1300 7200
+Wire Wire Line
+	1300 7200 1300 7400
+Connection ~ 1300 7400
+Text Label 6750 6900 2    50   ~ 0
+IO2
+Text Label 1350 5900 2    50   ~ 0
+IO36
+Text Label 1350 6000 2    50   ~ 0
+IO39
+Text Label 1350 6100 2    50   ~ 0
+IO34
+Text Label 1350 6200 2    50   ~ 0
+IO35
+Text Label 1350 6300 2    50   ~ 0
+IO32
+Text Label 1350 6400 2    50   ~ 0
+IO33
+Text Label 1350 6500 2    50   ~ 0
+IO25
+Text Label 1350 6600 2    50   ~ 0
+IO26
+Text Label 1350 6700 2    50   ~ 0
+IO27
+Text Label 2650 5800 0    50   ~ 0
+IO23
+Text Label 2650 5900 0    50   ~ 0
+IO22
+Text Label 2650 6900 0    50   ~ 0
+IO1
+Text Label 2650 6800 0    50   ~ 0
+IO3
+Text Label 2650 6000 0    50   ~ 0
+IO21
+Text Label 2650 6100 0    50   ~ 0
+IO19
+Text Label 2650 6200 0    50   ~ 0
+IO18
+Text Label 2650 6500 0    50   ~ 0
+IO5
+Text Label 2650 6400 0    50   ~ 0
+IO16
+Text Label 2650 6600 0    50   ~ 0
+IO4
+Text Label 2650 6700 0    50   ~ 0
+IO0
+Text Label 2650 7100 0    50   ~ 0
+IO15
+Text Label 2650 7200 0    50   ~ 0
+IO13
+Text Label 2650 7300 0    50   ~ 0
+IO12
+Text Label 2650 7400 0    50   ~ 0
+IO14
+Text Label 2650 7000 0    50   ~ 0
+IO2
+Text Label 2650 6300 0    50   ~ 0
+IO17
+$Comp
+L RocketScreamKiCadLib:FIDUCIAL M3
+U 1 1 6170513D
+P 6200 6150
+F 0 "M3" H 6274 6116 60  0000 L CNN
+F 1 "FIDUCIAL" H 6275 6063 60  0001 L CNN
+F 2 "RocketScreamKiCadLib:FIDUCIAL-0.5MM_SQUARE" H 6200 5850 60  0001 C CNN
+F 3 "" H 6200 6150 60  0000 C CNN
+	1    6200 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScreamKiCadLib:FIDUCIAL M4
+U 1 1 61705A86
+P 6500 6150
+F 0 "M4" H 6574 6116 60  0000 L CNN
+F 1 "FIDUCIAL" H 6575 6063 60  0001 L CNN
+F 2 "RocketScreamKiCadLib:FIDUCIAL-0.5MM_SQUARE" H 6500 5850 60  0001 C CNN
+F 3 "" H 6500 6150 60  0000 C CNN
+	1    6500 6150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6200 6300
+NoConn ~ 6500 6300
+Text Label 4450 6600 0    50   ~ 0
+IO35
+Wire Wire Line
+	5300 2000 5200 2000
+Text Notes 4000 2825 0    60   ~ 12
+Battery Type
+Text Notes 4000 2975 0    60   ~ 12
+Li-Ion/Pol
+Text Notes 4000 3125 0    60   ~ 12
+NiMHx3
+Text Notes 4000 3275 0    60   ~ 12
+NiMHx4
+Text Notes 4000 3425 0    60   ~ 12
+LiFePO4
+Wire Notes Line
+	4000 2700 4000 3450
+Wire Notes Line
+	6500 3450 6500 2700
+Wire Notes Line
+	4000 3300 6500 3300
+Wire Notes Line
+	6500 3150 4000 3150
+Wire Notes Line
+	4000 3000 6500 3000
+Wire Notes Line
+	4000 2850 6500 2850
+Text Notes 4650 2825 0    60   ~ 12
+R11
+Text Notes 4950 2825 0    60   ~ 12
+R13
+Text Notes 5250 2825 0    60   ~ 12
+R10
+Text Notes 5550 2825 0    60   ~ 12
+R12
+Text Notes 4625 2975 0    60   ~ 0
+100K
+Text Notes 4625 3425 0    60   ~ 0
+100K
+Text Notes 4625 3125 0    60   ~ 0
+200K
+Text Notes 4625 3275 0    60   ~ 0
+200K
+Text Notes 4950 3275 0    60   ~ 0
+10K
+Text Notes 4950 2975 0    60   ~ 0
+10K
+Text Notes 4950 3125 0    60   ~ 0
+10K
+Text Notes 4950 3425 0    60   ~ 0
+10K
+Text Notes 5225 2975 0    60   ~ 0
+365K
+Text Notes 5225 3275 0    60   ~ 0
+510K
+Text Notes 5225 3425 0    60   ~ 0
+240K
+Text Notes 5525 2975 0    60   ~ 0
+510K
+Text Notes 5525 3125 0    60   ~ 0
+510K
+Text Notes 5525 3275 0    60   ~ 0
+390K
+Text Notes 5525 3425 0    60   ~ 0
+510K
+Text Notes 5825 2825 0    60   ~ 12
+Vcharge
+Wire Notes Line
+	4600 2700 4600 3450
+Wire Notes Line
+	4900 2700 4900 3450
+Wire Notes Line
+	5200 2700 5200 3450
+Wire Notes Line
+	5500 2700 5500 3450
+Wire Notes Line
+	5800 2700 5800 3450
+Wire Notes Line
+	6200 2700 6200 3450
+Text Notes 6250 2825 0    60   ~ 12
+Imin
+Text Notes 5900 2975 0    60   ~ 0
+4.2V
+Text Notes 5900 3125 0    60   ~ 0
+4.2V
+Text Notes 5900 3275 0    60   ~ 0
+5.6V
+Text Notes 5900 3425 0    60   ~ 0
+3.6V
+Text Notes 6250 2975 0    60   ~ 0
+0mA
+Text Notes 6225 3275 0    60   ~ 0
+19mA
+Text Notes 6225 3125 0    60   ~ 0
+19mA
+Text Notes 6250 3425 0    60   ~ 0
+0mA
+Text Notes 6525 2825 0    60   ~ 0
+R11:Maintenance current (Imin)
+Text Notes 6525 2950 0    60   ~ 0
+Imin:((0.44/R13)+(0.44/R11)-(VIN/R11))x886
+Text Notes 6525 3075 0    60   ~ 0
+If Imin < 0, maintenance current is zero
+Text Notes 6525 3200 0    60   ~ 0
+R13:Charge current=1950/R13=195 mA
+Text Notes 6525 3325 0    60   ~ 0
+R10,R12:Charge voltage=2.445x(1+R10/R12)
+Wire Notes Line
+	8750 2700 8750 3450
+Wire Notes Line
+	4000 3450 8750 3450
+Wire Notes Line
+	4000 2700 8750 2700
+$Comp
+L RocketScreamKiCadLib:LOGO-RED-COMET-ESP32 LOGO5
+U 1 1 6027458B
+P 8950 6250
+F 0 "LOGO5" H 8950 5959 60  0001 C CNN
+F 1 "LOGO-RED-COMET-ESP32" H 8950 6541 60  0001 C CNN
+F 2 "RocketScreamKiCadLib:LOGO-RED-COMET-ESP32_Large" H 8950 6250 60  0001 C CNN
+F 3 "" H 8950 6250 60  0001 C CNN
+	1    8950 6250
+	1    0    0    -1  
+$EndComp
+Text Notes 5225 3125 0    60   ~ 0
+365K
+Text Notes 8900 950  0    60   ~ 0
+2. Lithium Thionyl Chloride (Li-SOCl2) 3.6V
+Text Notes 7950 5050 0    60   ~ 0
+Max baud rate: 115200 bps
+$EndSCHEMATC
